@@ -25,11 +25,6 @@ cd $REPER'/data_cadastre_ccpl_edigeo/'$millesime
 
 # ------------------------------------------------------------------------------
 
-# ogrinfo PG:"host='$C_HOST' user='$C_USER' dbname='$C_DBNAME' password='$C_PASSWORD' schemas=cadastre_archives" -sql "TRUNCATE cadastre_archives.parcelle_$annee";
-# ogrinfo PG:"host='$C_HOST' user='$C_USER' dbname='$C_DBNAME' password='$C_PASSWORD' schemas=cadastre_archives" -sql "TRUNCATE cadastre_archives.batiment_$annee";
-# ogrinfo PG:"host='$C_HOST' user='$C_USER' dbname='$C_DBNAME' password='$C_PASSWORD' schemas=cadastre_archives" -sql "TRUNCATE cadastre_archives.section_cadastrale_$annee";
-
-
 rm *'.zip'
 rm *'.gpkg'
 
